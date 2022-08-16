@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    color: red;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*CONTAIN TOP SECTION*/
+
+.container-top {
+    background-image: url("/imges/top-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.center-logo {
+    margin: 0 auto;
+    display: block;
+    padding: 5% 0;
+}
+.text-contain {
+    display: block;
+    width: 100%;
+}
+.text-contain h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    text-align: center;
+    width: 100%;
+    color: rgb(90, 86, 86);
+    margin-bottom: 5%;
+}
+.text-contain p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 51%;
+    color: rgb(90, 86, 86);
+    margin: 0 auto;
+    line-height: 24px;
+}
+.button-contain {
+    margin: 8% auto;
+    width: 40%;
+    display: flex;
+    padding-bottom: 10%;
+}
+.button-contain div {
+    margin: 0 auto;
+}
+.button-contain button {
+    padding: 13px 25px;
+    background-color: white;
+    font-size: 18px;
+    border: 1px solid red;
+}
+.btn-1 button {
+    background-color: red;
+    color: white;
+}
+.btn-1 button a {
+    color: white;
+}
+.btn-1 button:hover {
+    background-color: white;
+}
+.btn-1 button:hover a {
+    color: red;
+}
+.btn-2 button:hover {
+    background-color: red;
+}
+.btn-2 button:hover a {
+    color: white;
+}
+
+/* ZURI PROGRAMS SECTION */
+.team-zuri {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.team-zuri a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900%;
+    margin-bottom: 1.5%;
+}
+.team-zuri p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    font-weight: 600;
+    width: 28%;
+    color: rgb(75, 73, 73);
+}
+.wrapper-dots {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+.wrapper-dots div {
+    width: 25%;
+}
+.wrapper-dots img {
+    width: 100%;
+}
+.zuri-levels {
+    display: flex;
+    justify-content: space-around;
+
+}
+.zuri-levels img {
+    margin: 10% 0;
+}
+.zuri-levels div {
+    background-color: rgb(248, 219, 224);
+    padding: 30px;
+    width: 70%;
+    margin: 4% 0 2% 3%;
+}
+.zuri-levels .zuri-talent {
+    margin-right: 3%;
+}
+
+.zuri-levels p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+    font-weight: 400;
+    width: 80%;
+}
+.zuri-levels a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 20% 0;
+}
+
+/* FOOTER */
+.footer-contain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 18% 0 5%;
+}
+.footer-contain h3 {
+    font-family: 'Graphik', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(49, 47, 47);
+    padding-bottom: 20px;
+}
+.footer-contain div {
+    margin-left: 5%;
+    justify-content: center;
+}
+.footer-contain p {
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-contact {
+    width: 18%;
+}
+.footer-contain a {
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.footer-social img {
+    width: 7%;
+    margin: 1%;
+}
+
+.footer-copy {
+    display: block;
+    text-align: center;
+    margin: 2% 0 8%;
+    font-weight: 700;
+}
